@@ -3,4 +3,9 @@ function sayHello(name) {
     console.log("Hello " + name);
 }
 
-sayHello("Wonder");
+function sayGoodbye(name) {
+    console.log(`Goodbye ${name}`)
+}
+
+sayHello("Wonder")
+sayGoodbye("Wonder")
